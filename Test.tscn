@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://np7kdx7x4xfx"]
+
+[ext_resource type="Script" path="res://Test.gd" id="1_vylm0"]
+
+[sub_resource type="AudioStreamGenerator" id="AudioStreamGenerator_6pyr1"]
+
+[node name="GDPureDataHandle" type="GDPureDataHandle"]
+stream = SubResource("AudioStreamGenerator_6pyr1")
+volume_db = -24.0
+script = ExtResource("1_vylm0")
