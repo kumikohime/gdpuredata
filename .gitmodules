@@ -1,0 +1,9 @@
+[submodule "gdextension/libpd"]
+	path = gdextension/libpd
+	url = https://github.com/libpd/libpd.git
+[submodule "gdextension/gdpuredata/libpd"]
+	path = gdextension/gdpuredata/libpd
+	url = https://github.com/libpd/libpd.git
+[submodule "gdextension/gdpuredata/godot-cpp"]
+	path = gdextension/gdpuredata/godot-cpp
+	url = https://github.com/godotengine/godot-cpp.git
