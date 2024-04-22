@@ -13,7 +13,7 @@ env = SConscript("godot-cpp/SConstruct")
 # - LINKFLAGS are for linking flags
 
 # tweak this if you want to use different folders, or more folders, to store your source code in.
-env.Append(CPPPATH=["src/", "libpd/cpp/", "libpd/libpd_wrapper/", "libpd/libpd_wrapper/util"])
+env.Append(CPPPATH=["src/", "libpd/cpp/", "libpd/libpd_wrapper/", "libpd/libpd_wrapper/util", "libpd/pure-data/src"])
 env.Append(LIBS="libpd", LIBPATH=["libpd/libs/"])
 #env.Append(CXXFLAGS=["-fPIC"])
 sources = Glob("src/*.cpp")
