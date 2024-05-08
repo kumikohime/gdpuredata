@@ -26,6 +26,7 @@ Check the demo scene for an example
 
 The default buffer is set at 0.5s. This may be too high a latency for some.
 The latency can be fixed by adjusting the buffer length here.
+
 ![image](https://github.com/kumikohime/gdpuredata/assets/76047673/014303bd-d540-4856-8eac-69bde4587817)
 
 The libpd project is under a BSD license. Check the relevant license in the repository.
