@@ -1,7 +1,7 @@
 # GdPureData
 Puredata Plugin for Godot 4.x
 
-Integrates [libpd]https://github.com/libpd/libpd into the Godot Engine via gdextension
+Integrates [libpd](https://github.com/libpd/libpd) into the Godot Engine via gdextension
 
 ## Documentation
 
