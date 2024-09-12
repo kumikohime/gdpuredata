@@ -8,6 +8,12 @@ Integrates [libpd](https://github.com/libpd/libpd) into the Godot Engine via gde
 Refer to the official libpd wiki: https://github.com/libpd/libpd/wiki
 Almost all methods are exposed in the plugin with sane function names.
 
+## Dependencies
+
+Requirements to build are the same as for compiling godot
+Check the relevant article that applies to you
+https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html
+
 ## Building
 
 1. Change directory to ``gdpuredata/gdextension/gdpuredata/libpd`` and run ``make STATIC=true``.
